@@ -1,0 +1,4 @@
+#define FILE_TYPE VFT_APP
+#define FILE_DESC "Metro Exodus EE NPC overlay launcher"
+#define ORIGINAL_NAME "SpartanEye.exe"
+#include "version.rc"

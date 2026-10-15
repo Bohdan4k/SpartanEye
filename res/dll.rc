@@ -1,0 +1,4 @@
+#define FILE_TYPE VFT_DLL
+#define FILE_DESC "Metro Exodus EE NPC overlay (injected DLL, read-only)"
+#define ORIGINAL_NAME "metro_npc_overlay.dll"
+#include "version.rc"

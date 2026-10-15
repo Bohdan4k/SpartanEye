@@ -1,0 +1,32 @@
+// Version information shown in Explorer (Properties > Details). FILE_DESC / ORIGINAL_NAME come from CMake.
+#include <winver.h>
+#include "../src/version.h"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION MOD_VERSION_MAJOR, MOD_VERSION_MINOR, MOD_VERSION_PATCH, 0
+PRODUCTVERSION MOD_VERSION_MAJOR, MOD_VERSION_MINOR, MOD_VERSION_PATCH, 0
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+FILEFLAGS 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE FILE_TYPE
+FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", MOD_AUTHOR
+            VALUE "FileDescription", FILE_DESC
+            VALUE "FileVersion", MOD_VERSION_STR
+            VALUE "InternalName", ORIGINAL_NAME
+            VALUE "LegalCopyright", "MIT License"
+            VALUE "OriginalFilename", ORIGINAL_NAME
+            VALUE "ProductName", MOD_TITLE
+            VALUE "ProductVersion", MOD_VERSION_STR
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

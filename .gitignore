@@ -1,0 +1,16 @@
+# Build output
+build/
+out/
+dist/*.zip
+dist/*.sha256
+.vs/
+*.user
+# Runtime files the overlay writes next to its DLL
+*.log
+metro_npc_overlay.ini
+captures/
+# Never commit game files
+MetroExodus.exe
+*.vfs*
+*.vfx*
+__pycache__/

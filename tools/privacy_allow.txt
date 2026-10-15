@@ -1,0 +1,5 @@
+# Allowed literals for tools/privacy_scan.py (public, generic only). A hit whose context contains one of these passes.
+# System paths in third-party example code (stb_truetype samples):
+c:/windows/fonts/
+# AI co-author attribution line in commit messages:
+noreply@anthropic.com
